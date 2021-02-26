@@ -92,8 +92,8 @@
       question: "Q2. What type of variable can be defined in an interface?",
       answers: {
         a: "public static",
-        b: "private final"
-        c: "public final"
+        b: "private final",
+        c: "public final",
         d: "static final"
       },
       correctAnswer: "d"
@@ -125,8 +125,8 @@
       question: "Q5. What happens when we access the same variable defined in two interfaces implemented by the same class?",
       answers: {
         a: " Compilation failure",
-        b: "Runtime Exception"
-        c: "The JVM is not able to identify the correct variable"
+        b: "Runtime Exception",
+        c: "The JVM is not able to identify the correct variable",
         d: " The interfaceName,variableName needs to be defined"
       },
       correctAnswer: "d"
