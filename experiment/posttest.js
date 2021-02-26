@@ -80,52 +80,54 @@
 
   const myQuestions = [
     {
-      question: "Q1. HTML document consists __________ tag.",
+      question: "Q1. Which keyword is used to declare an interface in java?",
       answers: {
-        a: "head",
-        b: "body",
-        c: "Both",
+        a: "class",
+        b: "implements",
+        c: "interface",
         d: "None"
       },
       correctAnswer: "c"
     },
 
     {
-      question: "Which extention is used for saving an html document?",
+      question: "Q2.  Which is the correct way to inherit and implement the interface?",
       answers: {
-        a: "web",
-        b: "docx",
-        c: "html",
-        d: "ppt"
+        a: "class Cat extends IAnimal{}",
+        b: "class Cat import IAnimal{}",
+        c: "class Cat implements IAnimal{}",
+        d: "None is correct"
       },
       correctAnswer: "c"
     },
 
     {
-      question: "‹body› consists the content of our web page. State True or False.",
+      question: "Q3. Which one is correct declaration for implementing two interfaces?",
       answers: {
-        a: "True",
-        b: "False"        
+        a: "class C implements A, B",
+        b: "class C implements A, implements B",    
+	c: "class C implements A extends B",
+	d: "None"
       },
       correctAnswer: "a"
     },
 	
 	{
-      question: "Bold and Italic tags are used to emphasize the text in the HTML web page. State True or False.",
+      question: "Q4. Can we declare an interface as final?",
       answers: {
-        a: "True",
-        b: "False"        
+        a: "No",
+        b: "Yes"        
       },
       correctAnswer: "a"
     },
 	
 	{
-      question: "Which tag is used for largest heading?",
+      question: "Q5. Which of these access specifiers can be used for an interface?",
       answers: {
-        a: "h1",
-        b: "h6",
-        c: "large",
-        d: "‹big›"
+        a: "Public",
+        b: "Protected",
+        c: "private",
+        d: "None"
       },
       correctAnswer: "a"
     },
