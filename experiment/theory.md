@@ -19,7 +19,7 @@ There are mainly three reasons to use interface. They are given below.
 ```
 
 #### Java Interface Example
-In this example, the Printable interface has only one method, and its implementation is provided in the A6 class.
+
 
 ```sh
 	interface Bank{  
