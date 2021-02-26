@@ -102,8 +102,8 @@
     {
       question: "Q3.• What does an interface contain?",
       answers: {
-        a: " Method definition",
-        b: " Method declaration",
+        a: "Method definition",
+        b: "Method declaration",
         c: "Method declaration and definition",
         d: "Method name"
       },
@@ -115,8 +115,8 @@
       answers: {
         a: "Compilation failure",
         b: "Runtime Exception",
-        c: " The interface compiles successfully",
-        d: " The implementing class will throw exception"
+        c: "The interface compiles successfully",
+        d: "The implementing class will throw exception"
       },
       correctAnswer: "a"
     },
@@ -124,10 +124,10 @@
 	{
       question: "Q5. What happens when we access the same variable defined in two interfaces implemented by the same class?",
       answers: {
-        a: " Compilation failure",
+        a: "Compilation failure",
         b: "Runtime Exception",
         c: "The JVM is not able to identify the correct variable",
-        d: " The interfaceName,variableName needs to be defined"
+        d: "The interfaceName,variableName needs to be defined"
       },
       correctAnswer: "d"
     },
