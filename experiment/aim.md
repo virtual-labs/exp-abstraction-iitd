@@ -1,1 +1,1 @@
-#### The Aim of Experiment is to demonstrate working and creation of Interface in Java.
+#### The aim of Experiment is to demonstrate working and creation of Interface in Java.
