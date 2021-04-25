@@ -1,1 +1,44 @@
-[{"question":"Q1. All methods must be implemented of an interface.","answers":{"a":"True","b":"False"},"correctAnswer":"a"},{"question":"Q2. What type of variable can be defined in an interface?","answers":{"a":"public static","b":"private final","c":"public final","d":"static final"},"correctAnswer":"d"},{"question":"Q3.• What does an interface contain?","answers":{"a":"Method definition","b":"Method declaration","c":"Method declaration and definition","d":"Method name"},"correctAnswer":"b"},{"question":"Q4. What happens when a constructor is defined for an interface?","answers":{"a":"Compilation failure","b":"Runtime Exception","c":"The interface compiles successfully","d":"The implementing class will throw exception"},"correctAnswer":"a"},{"question":"Q5. What happens when we access the same variable defined in two interfaces implemented by the same class?","answers":{"a":"Compilation failure","b":"Runtime Exception","c":"The JVM is not able to identify the correct variable","d":"The interfaceName,variableName needs to be defined"},"correctAnswer":"d"}]
+[{
+	"question": "Q1. All methods must be implemented of an interface.",
+	"answers": {
+		"a": "True",
+		"b": "False"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Q2. What type of variable can be defined in an interface?",
+	"answers": {
+		"a": "public static",
+		"b": "private final",
+		"c": "public final",
+		"d": "static final"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "Q3.• What does an interface contain?",
+	"answers": {
+		"a": "Method definition",
+		"b": "Method declaration",
+		"c": "Method declaration and definition",
+		"d": "Method name"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q4. What happens when a constructor is defined for an interface?",
+	"answers": {
+		"a": "Compilation failure",
+		"b": "Runtime Exception",
+		"c": "The interface compiles successfully",
+		"d": "The implementing class will throw exception"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Q5. What happens when we access the same variable defined in two interfaces implemented by the same class?",
+	"answers": {
+		"a": "Compilation failure",
+		"b": "Runtime Exception",
+		"c": "The JVM is not able to identify the correct variable",
+		"d": "The interfaceName,variableName needs to be defined"
+	},
+	"correctAnswer": "d"
+}]
