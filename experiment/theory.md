@@ -6,6 +6,8 @@ Like a class, an interface can have methods and variables, but the methods decla
 -  It is used to achieve abstraction and multiple inheritance in Java.
 - To declare an interface, use interface keyword. It is used to provide total abstraction.That means all the methods in an interface are declared with an empty body and are public and all fields are public, static and final by default.
 
+---
+
 ### Why use Java interface?
 
 - It is used to achieve total abstraction.
@@ -13,17 +15,21 @@ Like a class, an interface can have methods and variables, but the methods decla
 - It is also used to achieve loose coupling.
 - Interfaces are used to implement abstraction. So the question arises why use interfaces when we have abstract classes?
 The reason is, abstract classes may contain non-final variables, whereas variables in interface are final, public and static.
-	
+
+---
+
 ### Syntax
 
 ```
-	interface <interface_name>
-	{ 
-	    // declare constant fields  
-	    // declare methods that abstract   
-	    // by default.  
-	}
+interface <interface_name>
+{ 
+// declare constant fields  
+// declare methods that abstract   
+// by default.  
+}
 ```
+
+---
 
 ### Java Interface Example
 Java program to demonstrate working of interface.
@@ -66,6 +72,9 @@ class TestClass implements In1
 VIRTUALITY
 10
 ```
+
+---
+
 
 ### Real-world example of Interface
 Let’s consider the example of vehicles like bicycle, car, bike………, they have common functionalities. So we make an interface and put all these common functionalities. And lets Bicycle, Bike, car ….etc implement all these functionalities in their own class in their own way.
