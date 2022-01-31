@@ -68,7 +68,7 @@ div.ex1 {
 <div class="ex1">
 <div class="row">
 <a href="#/" style="padding:15px;font-size:20px;"><button style="color:steelblue;"><u>Preview</u></button></a>
-<a href="http://ec2-65-1-58-72.ap-south-1.compute.amazonaws.com/javalab/index.php" target="blank" style="margin-left:-18px;font-size:20px;"><button style="color:steelblue;">&nbsp;&nbsp;&nbsp;&nbsp;Editor&nbsp;&nbsp;&nbsp;&nbsp;</button></a>
+<!-- <a href="http://ec2-65-1-58-72.ap-south-1.compute.amazonaws.com/javalab/index.php" target="blank" style="margin-left:-18px;font-size:20px;"><button style="color:steelblue;">&nbsp;&nbsp;&nbsp;&nbsp;Editor&nbsp;&nbsp;&nbsp;&nbsp;</button></a> -->
 </div>
 <div class="row">
 <div class="col-md-5">
@@ -103,22 +103,22 @@ function FunctionBack1(){
 }
 
 function createclass(){
-  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Example of interface<br>interface <input type='text' id='ifname' style='width:120px;height:24px;'>&nbsp;&nbsp;{<br><br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click1' >Next</button></div>";
+  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Example of interface<br>interface <input type='text' id='ifname' style='width:120px;height:24px;'>&nbsp;&nbsp;{<br>// Interface is similar to class which is collection of public static final variables (constants) and abstract methods.<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click1' >Next</button></div>";
 }
 
 function definingfields(ifname){
-  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Example of interface<br>interface <span id='ifname'>"+ifname+"</span>{<br>public void <input type='text' id='fun1' style='width:120px;height:24px;'>( ) ;<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click2'>Next</button></div>";
+  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Example of interface<br>interface <span id='ifname'>"+ifname+"</span>{<br>public void <input type='text' id='fun1' style='width:120px;height:24px;'>( ) ;<br>// Any number of abstract method declarations<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click2'>Next</button></div>";
 }
 
 function extendclass(ifname,fun1){
-  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Example of interface<br>interface <span id='ifname'>"+ifname+"</span>{<br>public void <span id='fun1'>"+fun1+"</span>( ) ;<br>}<br>class <input type='text' id='cname' style='width:120px;height:24px;'> implements <span id='ifname'>"+ifname+"</span>{<br>}<br></p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click3'>Next</button></div>";
+  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Example of interface<br>interface <span id='ifname'>"+ifname+"</span>{<br>public void <span id='fun1'>"+fun1+"</span>( ) ;<br>}<br>class <input type='text' id='cname' style='width:120px;height:24px;'> implements <span id='ifname'>"+ifname+"</span>{<br>//Implementation: by second user <br>}<br></p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click3'>Next</button></div>";
 }
 function definingfieldssub(cname,fun1,ifname){
   document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Example of interface<br>interface <span id='ifname'>"+ifname+"</span>{<br>public void <span id='fun1'>"+fun1+"</span>( ) ;<br>}<br>class <span id='cname'>"+cname+"</span> implements <span id='ifname'>"+ifname+"</span>{<br>public void <span id='fun1'>"+fun1+"</span>( )<br>{<br>System.out.println('<input type='text' id='msg1' style='width:120px;height:24px;'>') ;<br>}<br>}<br></p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click4'>Next</button></div>";
 }
 
 function mainclass(cname,fun1,ifname,msg1){
-  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Example of interface<br>interface <span id='ifname'>"+ifname+"</span>{<br>public void <span id='fun1'>"+fun1+"</span>( ) ;<br>}<br>class <span id='cname'>"+cname+"</span> implements <span id='ifname'>"+ifname+"</span>{<br>public void <span id='fun1'>"+fun1+"</span>( )<br>{<br>System.out.println('<span id='msg1'>"+msg1+"</span>') ;<br>}<br>public static void main(String[] args){<br><span id='cname'>"+cname+"</span> <input type='text' id='obj' style='width:60px;height:24px;'> = new <span id='cname'>"+cname+"</span>( ) ;<br>}<br>}<br></p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click5'>Next</button></div>";
+  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Example of interface<br>interface <span id='ifname'>"+ifname+"</span>{<br>public void <span id='fun1'>"+fun1+"</span>( ) ;<br>}<br>class <span id='cname'>"+cname+"</span> implements <span id='ifname'>"+ifname+"</span>{<br>public void <span id='fun1'>"+fun1+"</span>( )<br>{<br>System.out.println('<span id='msg1'>"+msg1+"</span>') ;<br>}<br>public static void main(String[] args){<br><span id='cname'>"+cname+"</span> <input type='text' id='obj' style='width:60px;height:24px;'> = new <span id='cname'>"+cname+"</span>( ) ;<br>//In real scenario, object is provided by method.<br>}<br>}<br></p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click5'>Next</button></div>";
 }
 
 function makeobject(cname,fun1,ifname,msg1,obj){
